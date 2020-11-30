@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<!-- Use Flask-WTF to generate form fields -->
+<div class="container column is-8 is-offset-2">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.firstName.label(class="label") }} {{ form.firstName(class="input", placeholder="First Name") }}
+        {{ form.lastName.label(class="label") }} {{ form.lastName(class="input", placeholder="Last Name") }}
+        {{ form.email.label(class="label") }} {{ form.email(class="input", placeholder="Email") }}
+        {{ form.submit(class="button is-link", style="margin-top:1em;") }}
+    </form>
+</div>
+{% endblock %}
