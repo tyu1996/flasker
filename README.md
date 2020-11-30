@@ -2,6 +2,8 @@
 
 This is a Flask boilerplate good for starting a new project from scratch quickly. It is minimal enough that developers are given enough flexibility to develop the app right now without spending more time on understand how to start developing.
 
+![Flasker GIF](flasker.gif)
+
 ## Requirements
 - Having experience on Flask
 - Install dependencies from _requirements.txt_
