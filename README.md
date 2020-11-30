@@ -9,4 +9,4 @@ This is a Flask boilerplate good for starting a new project from scratch quickly
 - Install dependencies from _requirements.txt_
 
 ## A Little Bit of Details
-This boilerplate has complete set of what minimal web app should have in MVC pattern: webpages, routes, forms, and models. It comes with a sample template so you can run _run.sh_ and check around first!
+This boilerplate has complete set of what minimal web app should have: webpages, routes, forms, and models. It comes with a sample template so you can run _run.sh_ and check around first!
